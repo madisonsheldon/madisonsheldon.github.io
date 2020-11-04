@@ -9,8 +9,9 @@
         <style>
             body {
                 background: rgb(255,255,255);
-                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(252,242,255,0.87) 53%, rgba(255,226,246,1) 96%);
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,252,234,0.87) 49%, rgba(255,245,201,1) 96%);
             }
+            
         	h1 {
                 margin-left: 430px;
                 margin-top: 90px;
@@ -80,7 +81,6 @@
             
             .dropbtn {
                 color: #37383C;
-                margin-left: 950px;
                 margin-top: -40px;
                 font-size: 28px;
                 font-family: span, serif;
@@ -94,17 +94,18 @@
             .dropdown {
                 position: relative;
                 display: inline-block;
+                margin-left: 950px;
             }
 
             .dropdown-content {
                 display: none;
                 position: absolute;
-                min-width: 160px;
+                min-width: 50px;
+                cursor: pointer;
             }
 
             .dropdown-content a {
                 color: #37383C;
-                margin-left: 950px;
                 margin-top: 0px;
                 padding: 12px 20px;
                 font-family: span, serif;
@@ -112,6 +113,15 @@
                 font-style: normal;
                 text-decoration: none;
                 display: block;
+            }
+            
+            #ifrm1 {
+              opacity: 1;
+/*              transition: opacity 1.5s linear;*/
+            }
+            #trig1:hover + iframe {
+              opacity: 1;
+/*              transition: opacity 1.5s linear;*/
             }
 
             .dropdown-content a:hover {background: none;}
