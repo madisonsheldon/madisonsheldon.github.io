@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://use.typekit.net/oue6ulk.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
         <style>
             body {
                 background: rgb(255,255,255);
@@ -32,6 +34,11 @@
                 font-weight: 300;
                 font-style: normal;
             }
+
+             a {
+              text-decoration: none;
+              color: #37383C;;
+            }
             
             hr {
                 width: 0%;
@@ -44,6 +51,7 @@
                 position:relative;
                 margin-left: 5rem;
                 margin-right: 8rem;
+                margin-bottom: 1rem;
                 line-height: 2.2;
                 color: #37383C;
                 font-size: 16px;
@@ -52,33 +60,66 @@
                 font-style: normal;
             }
 
-                .iframe-preview {
-                  transition:.2s ease-in-out opacity, .2s ease-in-out transform;
-                  opacity:0;
-                  position:absolute;
-                  bottom: 110%;
-                  left:50%;
-                  box-shadow:0 1px 5px rgba(0,0,0,.5);
-                  width:300px;
-                  height:200px;
-                  padding-right: 30px;
-                  border:4px solid #fff;
-                  overflow-x:hidden;
-                  overflow-y:auto;
-                  transform-origin:center bottom;
-                  transform: translateX(-50%) translateY(10px) scale(.9);
-                }
-                  
-                  iframe {
-                    transform:scale(.2);
-                    transform-origin:0 0;
-                  }
-    
+            .textTwo {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
 
-                .text:hover .iframe-preview {
-                    opacity:1;
-                    transform: translateX(-50%) translateY(0) scale(1);
-                  }
+            .textThree {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textFour {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textFive {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
 
             .custom-button,
             .custom-button:visited {
@@ -92,10 +133,6 @@
                 font-weight: 600;
                 font-style: normal;
                 width:100px;
-            }
-            
-            .link {
-                color: #37383C;
             }
 
             .header {
@@ -115,8 +152,7 @@
             #div2{
                 display:block;
                 position:fixed;
-                margin-left: 48px;
-                margin-top: -15px;
+                margin-left: -20px;
                 width:45vw;
                 height:30vw;
             }
@@ -162,6 +198,43 @@
             .dropdown:hover .dropdown-content {display: block;}
 
             .dropdown:hover .dropbtn;
+
+            .word {
+            }
+
+            .img {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgTwo {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgThree {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgFour {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgFive {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .show {
+              display: inline-block;
+            }
             
     	</style>
     </head>
@@ -178,40 +251,47 @@
                 <a href="touch.html">Touch</a>
             </div>
         </div>
-            <h1>Sight</h1>     
+        <h1>Sight</h1>     
         <div id="div1">
-              <span class="text">
-          glance at some images,
-          
-          <div class="iframe-preview">
-            <iframe src="https://www.google.com/search?q=lavender+photos&source=lnms&tbm=isch" style="border:0px #FFFFFF none;" name="test" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="2000px" width="1000px"> 
-            </iframe>
-          </div>
-        </span>   
-            
-            <p>
-                watch some
-                <a class="link" href="https://www.google.com/search?q=lavender+photos&source=lnms&tbm=isch" target="_blank" target="_blank">buzzing bees</a>,
-            </p>
-            <p>
-                or some
-                <a class="link" href="https://www.etsy.com/market/lavender_poster" target="_blank">posters</a>,
-            </p>
-            <p>
-                check out a
-                <a class="link" href="https://www.amazon.com/s?k=lavender&i=stripbooks&ref=nb_sb_noss_1" target="_blank">book</a>,
-            </p>
-            <p>
-                see some
-                <a class="link" href="https://www.etsy.com/market/lavender_painting" target="_blank">paintings</a>,
-            </p>
-                <div id="div2">
+            <div class="text">
+              glance at some images,
+              <div class="img">
+                  <a href="https://www.google.com/search?q=lavender+photos&source=lnms&tbm=isch" target="_blank"><img src="images/lav1.jpg" style="width:100%"></a>
+              </div>
+            </div>  
+            <div class="textTwo">
+              watch some buzzing bees
+              <div class="imgTwo">
+                  <a href="https://www.google.com/search?q=lavender+photos&source=lnms&tbm=isch" target="_blank"><img src="images/lav5.jpg" style="width:70%"></a>
+              </div>
+            </div>
+            <div class="textThree">
+              or some posters
+              <div class="imgThree">
+                  <a href="https://www.etsy.com/market/lavender_poster" target="_blank"><img src="images/lav3.jpg" style="width:90%"></a>
+              </div>
+            </div>
+            <div class="textFour">
+              check out a book
+              <div class="imgFour">
+                  <a href="https://www.amazon.com/s?k=lavender&i=stripbooks&ref=nb_sb_noss_1" target="_blank"><img src="images/lavBook.jpeg" style="width:90%"></a>
+              </div>
+            </div>
+            <div class="textFive">
+              see some paintings
+              <div class="imgFive">
+                  <a href="https://www.etsy.com/market/lavender_painting" target="_blank"><img src="images/lav6.jpg" style="width:90%"></a>
+              </div>
+              <div id="div2">
                     <p>
                         or 
                         <a class="link" href="https://www.dickblick.com/categories/painting/?gclid=Cj0KCQjwoJX8BRCZARIsAEWBFMKQnXMydn8V8rMO1hRF8qz2WeDC3FY426MLqcbth-bKj_Ad4f0I4csaAoHXEALw_wcB" target="_blank">paint your own</a>,
                     </p>
                 </div>
+            </div>
+                
             <p><br></p>
         <div/>
+
     </body>
 </html>

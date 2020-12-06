@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://use.typekit.net/oue6ulk.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
         <style>
             body {
                 background: rgb(255,255,255);
@@ -32,10 +34,90 @@
                 font-weight: 300;
                 font-style: normal;
             }
+
+            a {
+              text-decoration: none;
+              color: #37383C;;
+            }
             
             hr {
                 width: 0%;
                 margin-bottom: 8px;
+            }
+
+            .text {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textTwo {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textThree {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textFour {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textFive {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
             }
 
             .custom-button,
@@ -114,21 +196,49 @@
                 text-decoration: none;
                 display: block;
             }
-            
-            #ifrm1 {
-              opacity: 1;
-/*              transition: opacity 1.5s linear;*/
-            }
-            #trig1:hover + iframe {
-              opacity: 1;
-/*              transition: opacity 1.5s linear;*/
-            }
 
             .dropdown-content a:hover {background: none;}
 
             .dropdown:hover .dropdown-content {display: block;}
 
             .dropdown:hover .dropbtn;
+
+            .word {
+            }
+
+            .img {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgTwo {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgThree {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgFour {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgFive {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .show {
+              display: inline-block;
+            }
             
     	</style>
     </head>
@@ -147,14 +257,23 @@
         </div>
             <h1>Taste</h1>
         <div id="div1">
-            <p>
-                <a class="link" href="https://www.amazon.com/s?k=lavender&i=grocery&ref=nb_sb_noss_1" target="_blank">edible dried flowers</a>,
-            </p>
-            <p>
-                <a class="link" href="http://www.google.com/search?q=lavender+recipes" target="_blank">bake something</a>,
-            </p>
-            <p>
-                <a class="link" href="https://www.thespruceeats.com/diy-lavender-simple-syrup-760293" target="_blank">mix up a cocktail</a>
-            </p>
+            <div class="text">
+              edible dried flowers,
+              <div class="img">
+                  <a href="https://www.amazon.com/s?k=lavender&i=grocery&ref=nb_sb_noss_1" target="_blank"><img src="images/dried.jpeg" style="width:100%"></a>
+              </div>
+            </div> 
+            <div class="textTwo">
+              bake something,
+              <div class="imgTwo">
+                  <a href="http://www.google.com/search?q=lavender+recipes" target="_blank"><img src="images/cookies.jpeg" style="width:90%"></a>
+              </div>
+            </div> 
+            <div class="textThree">
+              mix up a cocktail
+              <div class="imgThree">
+                  <a href="https://www.thespruceeats.com/diy-lavender-simple-syrup-760293" target="_blank"><img src="images/syrup.jpg" style="width:70%"></a>
+              </div>
+            </div>
     </body>
 </html>

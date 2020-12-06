@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://use.typekit.net/oue6ulk.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>    
         <style>
             body {
                 background: rgb(255,255,255);
@@ -24,7 +26,6 @@
 
             p { 
                 margin-left: 5rem;
-                margin-right: 8rem;
                 line-height: 2.2;
                 color: #37383C;
                 font-size: 16px;
@@ -32,10 +33,91 @@
                 font-weight: 300;
                 font-style: normal;
             }
+
+            a {
+              text-decoration: none;
+              color: #37383C;;
+              width: 40px;
+            }
             
             hr {
                 width: 0%;
                 margin-bottom: 8px;
+            }
+
+            .text {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textTwo {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textThree {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textFour {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            .textFive {
+                cursor:default;
+                display:inline-block;
+                position:relative;
+                margin-left: 5rem;
+                margin-right: 8rem;
+                margin-bottom: 1rem;
+                line-height: 2.2;
+                color: #37383C;
+                font-size: 16px;
+                font-family: span, serif;
+                font-weight: 300;
+                font-style: normal;
             }
 
             .custom-button,
@@ -120,6 +202,40 @@
             .dropdown:hover .dropdown-content {display: block;}
 
             .dropdown:hover .dropbtn;
+
+            .img {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgTwo {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgThree {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgFour {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .imgFive {
+              display: none;
+              width: 300px;
+              padding:20px;
+            }
+
+            .show {
+              display: inline-block;
+            }
             
     	</style>
     </head>
@@ -138,18 +254,27 @@
         </div>
             <h1>Sound</h1>
         <div id="div1">
-            <p>
-                <a class="link" href="https://www.youtube.com/watch?v=JaZwi1kBUiA" target="_blank">blowing in the breeze</a>,
-            </p>
-            <p>
-                lavender
-                <a class="link" href="https://www.youtube.com/watch?v=dh9a8y4CnRI" target="_blank">garden sounds</a>,
-            </p>
-            <p>
-                <a class="link" href="https://www.youtube.com/watch?v=hDBokuqoCAc" target="_blank">bees buzzing</a> around,
-            </p>
-            <p>
+            <div class="textFive">
+              blowing in the breeze,
+              <div class="imgFive">
+                  <a href="https://www.youtube.com/watch?v=JaZwi1kBUiA" target="_blank"><img src="images/lav10.jpg" style="width:80%"></a>
+              </div>
+            </div>
+            <div class="textTwo">
+              lavender garden sounds,
+              <div class="imgTwo">
+                  <a href="https://www.youtube.com/watch?v=dh9a8y4CnRI" target="_blank"><img src="images/lav8.jpg" style="width:70%"></a>
+              </div>
+            </div>
+            <div class="textThree">
+              bees buzzing around,
+              <div class="imgThree">
+                  <a href="https://www.youtube.com/watch?v=hDBokuqoCAc" target="_blank"><img src="images/lav5.jpg" style="width:70%"></a>
+              </div>
+              <p>
                 go
                 <a class="link" href="http://www.google.com/search?q=lavender+garden+near+me" target="_blank">hear for yourself</a>
+            </p>
+            </div>
     </body>
 </html>
